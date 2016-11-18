@@ -14,16 +14,16 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "home" => [
-                "text"  => t("Home"),
+            "Startsida" => [
+                "text"  => t("Startsida"),
                 "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Homepage"),
+                "title" => t("Startsida"),
             ],
 
-            "report" => [
-                "text"  => t("Report"),
+            "Redovisningar" => [
+                "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
             ],
 
@@ -33,10 +33,10 @@ return [
                 "title" => t("Test"),
             ],
 
-            "about" => [
-                "text"  => t("About"),
+            "Om" => [
+                "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
+                "title" => t("Om sidan")
             ],
         ],
     ],

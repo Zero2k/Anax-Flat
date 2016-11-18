@@ -1,4 +1,4 @@
 Contact
 ==============================================
 
-Any questions about this site can be emailed to [Viktor Bengtsson](mailto:vibe16@student.bth.se).
+Har du några frågor så kan du kontakta mig via [E-post](mailto:vibe16@student.bth.se).

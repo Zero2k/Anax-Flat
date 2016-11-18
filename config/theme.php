@@ -15,7 +15,7 @@ return [
             // General
             "htmlClass"     => ["anax-flat"],
             "bodyClass"     => [],
-            "lang"          => "en",
+            "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
             "favicon"       => "img/favicon/favicon_256x256.png",
