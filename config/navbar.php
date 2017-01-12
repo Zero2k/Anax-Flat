@@ -45,6 +45,12 @@ return [
                 "title" => t("Typography"),
             ],
 
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
+            ],
+
             "Om" => [
                 "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -95,6 +101,12 @@ return [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography"),
+            ],
+
+            "theme" => [
+                "text"  => t("Theme"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Theme"),
             ],
 
             "Om" => [

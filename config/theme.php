@@ -13,7 +13,7 @@ return [
 
         "data" => [
             // General
-            "htmlClass"     => ["anax-flat"],
+            "htmlClass"     => ["typography anax-flat"],
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
@@ -23,8 +23,8 @@ return [
             // Style and stylesheets
             // "stylesheets" => ["css/default.min.css"],
             "stylesheets" => [
-                "css/style.min.css",
-                "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css",
+                "css/style-typography.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
             ],
             "styleInline" => null,
 
