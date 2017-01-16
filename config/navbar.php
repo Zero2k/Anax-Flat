@@ -51,6 +51,12 @@ return [
                 "title" => t("Theme"),
             ],
 
+            "analysis" => [
+                "text"  => t("Analysis"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analysis"),
+            ],
+
             "Om" => [
                 "text"  => t("Om sidan"),
                 "url"   => $this->di->get("url")->create("about"),

@@ -100,4 +100,4 @@ Jag vet att det stod att man skulle använda olika typsnitt, men när jag testa 
 
 <h3>Övrigt</h3>
 
-Till sist valde jag att sätta temat Typography som standard temat, det tema som visas när temaväljaren inte används. Anledningen beror på att jag tyckte detta temat blev rätt snygg då alla färgerna passar väldigt bra ihop och typsnittet tycker jag också passa väldigt bra in.
+Till sist valde jag att sätta temat Typography som standard tema, det tema som visas när temaväljaren inte används. Anledningen beror på att jag tyckte detta temat blev rätt snygg då alla färgerna passar väldigt bra ihop och typsnittet tycker jag också passa väldigt bra in.
