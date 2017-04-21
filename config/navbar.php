@@ -27,10 +27,17 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Test"),
+            "Blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blog"),
+                "title" => t("Blogg"),
+                "mark-if-parent" => true,
+            ],
+
+            "images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images"),
             ],
 
             "grid" => [
@@ -55,12 +62,6 @@ return [
                 "text"  => t("Analysis"),
                 "url"   => $this->di->get("url")->create("analysis"),
                 "title" => t("Analysis"),
-            ],
-
-            "Om" => [
-                "text"  => t("Om sidan"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
             ],
         ],
     ],
@@ -88,6 +89,13 @@ return [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar"),
+                "mark-if-parent" => true,
+            ],
+
+            "Blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blog"),
+                "title" => t("Blogg"),
                 "mark-if-parent" => true,
             ],
 

@@ -1,5 +1,6 @@
 Theme
 ==============================================
+Klicka här för att välja tema: [Theme Selector](theme-selector)
 <h3>Base</h3>
 I detta temat har jag inte gjort några ändringar utan här används standard inställningarna för Anax-flat. Här är det endast stillarna från modules.less som körs.
 
