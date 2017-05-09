@@ -71,10 +71,28 @@ return [
 
         "separator2" => "------------------------------------------------",
 
-        "fun"       => [
-            "title"      => "All fun, test and play, make it stand out!",
-            "class"      => "fun",
-            "stylesheets" => []
+        "theme-one"       => [
+            "title"      => "Design One - Contrast",
+            "class"      => "Design One",
+            "stylesheets" => [
+                "css/theme-one.min.css"
+            ]
+        ],
+
+        "theme-two"       => [
+            "title"      => "Design Two - Unity",
+            "class"      => "Design Two",
+            "stylesheets" => [
+                "css/theme-two.min.css"
+            ]
+        ],
+
+        "theme-three"       => [
+            "title"      => "Design Three - Depth",
+            "class"      => "Design Thee",
+            "stylesheets" => [
+                "css/theme-three.min.css"
+            ]
         ],
     ]
 ];

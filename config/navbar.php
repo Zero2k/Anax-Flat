@@ -56,6 +56,20 @@ return [
                 "text"  => t("Theme"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Theme"),
+                "submenu" => [
+                    "items" => [
+                        "design-principle" => [
+                            "text"  => t("Design principer"),
+                            "url"   => $this->di->get("url")->create("design-principle"),
+                            "title" => t("Design Principle")
+                        ],
+                        "design-element" => [
+                            "text"  => t("Design element"),
+                            "url"   => $this->di->get("url")->create("design-element"),
+                            "title" => t("Design Element")
+                        ],
+                    ],
+                ],
             ],
 
             "analysis" => [
@@ -99,10 +113,10 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Test"),
+            "images" => [
+                "text"  => t("Images"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images"),
             ],
 
             "grid" => [
@@ -121,6 +135,12 @@ return [
                 "text"  => t("Theme"),
                 "url"   => $this->di->get("url")->create("theme"),
                 "title" => t("Theme"),
+            ],
+
+            "design-principle" => [
+                "text"  => t("Design Principle"),
+                "url"   => $this->di->get("url")->create("design-principle"),
+                "title" => t("Design Principle"),
             ],
 
             "Om" => [
