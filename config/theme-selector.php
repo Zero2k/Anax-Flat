@@ -94,5 +94,29 @@ return [
                 "css/theme-three.min.css"
             ]
         ],
+
+        "theme-four"       => [
+            "title"      => "Design Four - Design Element",
+            "class"      => "Design Four",
+            "stylesheets" => [
+                "css/theme-four.min.css"
+            ]
+        ],
+
+        "theme-five"       => [
+            "title"      => "Design Five - Design Element",
+            "class"      => "Design Five",
+            "stylesheets" => [
+                "css/theme-five.min.css"
+            ]
+        ],
+
+        "theme-six"       => [
+            "title"      => "Design Six - Design Element",
+            "class"      => "Design Six",
+            "stylesheets" => [
+                "css/theme-six.min.css"
+            ]
+        ],
     ]
 ];
